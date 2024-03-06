@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="/logo.png" className="App-logo" alt="logo" />
+        <img src="logo.png" className="App-logo" alt="logo" />
         <p>
           Happy birthday koli, from the <span className="red-text">supreme</span> borkar
         </p>

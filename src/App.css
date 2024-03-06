@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  font-family: Oswald, sans-serif; /* Use Oswald font */
+  font-style: bold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.spaced-text {
+  margin: 20px 0; /* Adjust the margin value as needed */
+}
+
+
+.red-text {
+  color: red; /* Define the color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.red-text:hover::after {
+  content: " talonted"; /* Change content to " legend" when hovered */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+    -webkit-animation: App-logo-spin infinite 10s linear;
+}
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
